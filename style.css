@@ -1,0 +1,33 @@
+body{
+    background-color: #F8C4D4;
+    margin-top: 0px;
+}
+
+#logo{
+    height: 150px;
+    width: 290px;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+}
+
+.container_painel{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-items: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+#theo{
+    width: 1024px;
+    height:576px;
+}
