@@ -4,7 +4,9 @@ body{
 }
 
 #logo{
-    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
     width: 290px;
 }
 
@@ -25,9 +27,31 @@ nav{
 .container{
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-#theo{
+#aang{
     width: 1024px;
     height:576px;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
+
+.container_trabalho{
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+}
+
+.div{
+    display: flex;
+    justify-items: center;
+    border-color:black;
+    border-style: solid;
+    width:auto;
+    max-width: 1200px;
+    height: 500px;
 }
