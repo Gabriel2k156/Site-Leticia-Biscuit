@@ -1,33 +1,28 @@
 body{
     background-color: #f6c0d0;
-    margin-top: 0px;
+    margin-top: 0px; /* Retira a margem do topo da página */
 }
 
 #logo{
-    display: flex;
-    flex-wrap: wrap;
     height: auto;
     width: 290px;
 }
 
+a{
+    text-decoration: none; /* Tira o sublinhado dos links do nav */
+}
+
 ul{
     display: flex;
+    list-style: none; /* Deixe a lista sem marcadores */
     gap: 50px;
 }
 
-.container_painel{
-    display: flex;
-}
-
-nav{
-    display: flex;
-    justify-items: center;
-}
-
-.container{
+.container_nav{
     display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Faz com que os itens se alinhem para baixo quando a tela é pequena — RESPONSIVIDADE */
+    justify-content: space-between; /* Deixa cada conteúdo de um lado */
+    gap: 200px;
 }
 
 #aang{
@@ -40,10 +35,10 @@ nav{
     justify-content: center;
 }
 
-.container_trabalho{
+.container_imagem_central{
     display: flex;
-    justify-content: center;    
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .div{
