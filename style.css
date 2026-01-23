@@ -26,8 +26,8 @@ ul{
 }
 
 #aang{
-    width: 1024px;
-    height:576px;
+    max-width: 50%; /*Define a largura máxima da foto, ela vai ocupar somente 50% do container */
+    height:auto; /*Deixa a altura da foto proporcional a largura, sem a distorcer*/
 }
 
 .centralizar{
@@ -49,4 +49,9 @@ ul{
     width:auto;
     max-width: 1200px;
     height: 500px;
+}
+
+html{
+    height: 100%;
+    width: 100%;
 }
